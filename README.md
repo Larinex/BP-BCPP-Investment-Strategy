@@ -10,6 +10,7 @@ Simulace testuje aktivní přístup k investování na segmentu Prime Market BCP
 
 ## Struktura repozitáře
 * `BP_kod.py`: Hlavní simulační skript v Pythonu zajišťující exekuci obchodů, rebalancování portfolia a výpočet poplatků.
+* `obchody.xlsx`: Zachycení obchodů a cen k prvnímu a poslednímu ocbhodnímu dni, klíčový soubor pro funkčnost Python kódu.
 * `screening.xlsx`: Detailní výsledky fundamentálního screeningu pro jednotlivé roky, určující složení portfolia.
 * `pomocná data.xlsx`: Historické časové řady cen a fundamentálních údajů pro klíčové tituly (ČEZ, KB, Erste, Moneta atd.).
 * `vysledna_vykonnost.xlsx`: Exportované výstupy simulace včetně ročních výnosů a celkového zhodnocení.
