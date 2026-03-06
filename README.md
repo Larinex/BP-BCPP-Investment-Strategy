@@ -14,6 +14,8 @@ Simulace testuje aktivní přístup k investování na segmentu Prime Market BCP
 * `screening.xlsx`: Detailní výsledky fundamentálního screeningu pro jednotlivé roky, určující složení portfolia.
 * `pomocná data.xlsx`: Historické časové řady cen a fundamentálních údajů pro klíčové tituly (ČEZ, KB, Erste, Moneta atd.).
 * `vysledna_vykonnost.xlsx`: Exportované výstupy simulace včetně ročních výnosů a celkového zhodnocení.
+* `pomocná data_pro_citlivostni_analyzu.xlsx`: Soubor "pomocná data.xlsx" doplněný o dividendy z let 2003, doplněk pro citlivostní analýzu.
+* `citlivostni_analyza.py`: Simulační skript pro citlivostní analýzu.
 
 ## Technické informace
 Algoritmus je postaven na knihovně `pandas` a simuluje reálné tržní podmínky včetně transakčních nákladů (dle ceníku Fio banky). Pro správnou funkčnost skriptu je nutné zachovat relativní cesty k datovým souborům v rámci pracovní složky.
