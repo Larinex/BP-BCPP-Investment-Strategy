@@ -34,7 +34,7 @@ Citlivostní analýza parametru požadované výnosové míry *r* v Gordonově r
 - **Vstup:** `data/pomocna_data.xlsx`
 - **Výstup:** `vystupy/sensitivity_output.xlsx` (listy: Detail, Souhrn, Změny)
 
-Výnosy dluhopisů jsou hardcoded přímo ve skriptu jako záložní hodnoty – soubor `dluhopisy.xlsx` tedy není ke spuštění nutný.
+Výnosy dluhopisů jsou hardcoded přímo ve skriptu jako záložní hodnoty.
 
 ---
 
